@@ -1,0 +1,28 @@
+// Core variables and mixins
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+body {
+  width: 970px;
+  margin: 0 auto;
+}
+
+// My Imports
+//
+.presentation {
+  @include make-row();
+
+  aside {
+    @include make-sm-column(5);
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  section {
+    float: none !important; // FIX
+    @include make-sm-column(7);
+  }
+}
+
