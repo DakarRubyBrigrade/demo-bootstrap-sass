@@ -1,0 +1,34 @@
+body {
+  width: 970px;
+  margin: 0 auto; }
+
+.presentation {
+  margin-left: -15px;
+  margin-right: -15px; }
+  .presentation:before, .presentation:after {
+    content: " ";
+    display: table; }
+  .presentation:after {
+    clear: both; }
+  .presentation aside {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 768px) {
+      .presentation aside {
+        float: left;
+        width: 41.66667%; } }
+    .presentation aside img {
+      width: 100%;
+      height: auto; }
+  .presentation section {
+    float: none !important;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 768px) {
+      .presentation section {
+        float: left;
+        width: 58.33333%; } }
